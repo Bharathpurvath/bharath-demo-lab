@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f5ef">
+  <meta name="description" content="Interactive software project demos by Bharath B. Explore and test practical web applications.">
+  <title>Bharath B — Demo Lab</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="Bharath B Demo Lab home"><span class="brand-mark">B.</span><span>Bharath B <small>/ DEMO LAB</small></span></a>
+    <nav><a href="#projects">Projects</a><a href="#about">About</a><a class="nav-cta" href="https://github.com/Bharathpurvath" target="_blank" rel="noreferrer">GitHub ↗</a></nav>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="eyebrow"><span class="status-dot"></span> INDEPENDENT PROJECT PLAYGROUND</div>
+      <h1>Small ideas.<br><em>Working software.</em></h1>
+      <p class="hero-copy">A hands-on collection of web apps built to solve everyday problems. Open a demo, try the features, and explore the code.</p>
+      <div class="hero-actions"><a class="button button-dark" href="#projects">Explore demos <span>↓</span></a><a class="text-link" href="https://github.com/Bharathpurvath" target="_blank" rel="noreferrer">Browse source code ↗</a></div>
+      <div class="hero-note"><span>01</span><span>BUILD · TEST · IMPROVE</span><span>CHENNAI, INDIA</span></div>
+    </section>
+    <section class="section" id="projects">
+      <div class="section-heading"><div><p class="eyebrow">THE COLLECTION</p><h2>Try it yourself</h2></div><p class="section-intro">These demos run in your browser. Sample data stays on this device unless a project says otherwise.</p></div>
+      <div class="project-grid">
+        <article class="project-card featured">
+          <div class="project-top"><span class="project-index">01 / PRODUCTIVITY</span><span class="live-tag"><span></span> INTERACTIVE</span></div>
+          <div class="app-preview job-preview" aria-label="Job tracker preview">
+            <div class="preview-sidebar"><div class="mini-logo">A.</div><i class="side-line active"></i><i class="side-line"></i><i class="side-line"></i><div class="side-spacer"></div><i class="avatar-dot"></i></div>
+            <div class="preview-main"><div class="preview-heading"><div><span class="mini-muted">YOUR WORKSPACE</span><strong>Job applications</strong></div><span class="mini-add">+</span></div><div class="mini-stats"><div><small>Applied</small><b>08</b></div><div><small>Interviews</small><b>03</b></div><div><small>Offers</small><b>01</b></div></div><div class="mini-table"><div class="mini-row"><b>Frontend Developer</b><span class="pill applied">Applied</span></div><div class="mini-row"><b>QA Engineer</b><span class="pill interview">Interview</span></div><div class="mini-row"><b>Junior Developer</b><span class="pill saved">Saved</span></div></div></div>
+          </div>
+          <div class="project-copy"><div class="project-title-row"><h3>ApplyFlow Job Tracker</h3><span class="number-badge">01</span></div><p>Keep your job search organised. Track applications, update stages, search roles, and filter your pipeline in one simple dashboard.</p><div class="tag-row"><span>React concept</span><span>JavaScript</span><span>Local storage</span></div><div class="card-actions"><button class="button button-dark" id="open-applyflow">Launch demo <span>↗</span></button><a class="source-link" href="https://github.com/Bharathpurvath/applyflow-job-tracker" target="_blank" rel="noreferrer">Source code ↗</a></div></div>
+        </article>
+        <article class="project-card">
+          <div class="project-top"><span class="project-index">02 / FINANCE</span><span class="soon-tag">COMING NEXT</span></div>
+          <div class="coming-preview expense-preview"><div class="expense-head"><span>Monthly overview</span><b>₹ 18,450</b></div><div class="expense-bars"><i style="height:40%"></i><i style="height:65%"></i><i style="height:48%"></i><i style="height:80%"></i><i style="height:56%"></i><i style="height:92%"></i><i style="height:68%"></i></div><div class="expense-foot"><span>WEEK 1</span><span>WEEK 2</span><span>WEEK 3</span><span>WEEK 4</span></div></div>
+          <div class="project-copy"><div class="project-title-row"><h3>Expense Tracker</h3><span class="number-badge">02</span></div><p>A clean way to record spending, group expenses by category, and understand where your money goes.</p><div class="tag-row"><span>JavaScript</span><span>Charts</span><span>Local storage</span></div><div class="card-actions"><span class="muted-action">In development</span></div></div>
+        </article>
+        <article class="project-card">
+          <div class="project-top"><span class="project-index">03 / QUALITY</span><span class="soon-tag">COMING NEXT</span></div>
+          <div class="coming-preview bug-preview"><div class="bug-toolbar"><span>ISSUE BOARD</span><span>•••</span></div><div class="bug-item"><span class="bug-priority high"></span><div><b>Login form validation</b><small>BUG-014 · High</small></div><span class="bug-state">Open</span></div><div class="bug-item"><span class="bug-priority medium"></span><div><b>Mobile layout overflow</b><small>BUG-015 · Medium</small></div><span class="bug-state progress">In progress</span></div><div class="bug-item"><span class="bug-priority low"></span><div><b>Update button spacing</b><small>BUG-016 · Low</small></div><span class="bug-state">Open</span></div></div>
+          <div class="project-copy"><div class="project-title-row"><h3>Bug Tracking Board</h3><span class="number-badge">03</span></div><p>Log defects, set priorities, and move issues through a QA workflow — a practical testing portfolio project.</p><div class="tag-row"><span>QA workflow</span><span>CRUD</span><span>Filtering</span></div><div class="card-actions"><span class="muted-action">In development</span></div></div>
+        </article>
+        <article class="project-card">
+          <div class="project-top"><span class="project-index">04 / FILE TOOLS</span><span class="soon-tag">EXISTING PROJECT</span></div>
+          <div class="coming-preview file-preview"><div class="file-window"><div class="file-window-head"><span>My files</span><span>＋</span></div><div class="file-tile"><span class="file-icon pdf">PDF</span><b>Project brief.pdf</b><small>2.4 MB</small></div><div class="file-tile"><span class="file-icon img">IMG</span><b>Design preview.png</b><small>840 KB</small></div><div class="file-tile"><span class="file-icon doc">DOC</span><b>Meeting notes.docx</b><small>120 KB</small></div></div></div>
+          <div class="project-copy"><div class="project-title-row"><h3>FileBuddy</h3><span class="number-badge">04</span></div><p>A browser-based file manager to upload, preview, search, and download files without sending them to a server.</p><div class="tag-row"><span>React</span><span>IndexedDB</span><span>File API</span></div><div class="card-actions"><a class="button button-dark" href="https://lambent-chaja-765d34.netlify.app/" target="_blank" rel="noreferrer">Launch demo <span>↗</span></a><a class="source-link" href="https://github.com/Bharathpurvath/filebuddy" target="_blank" rel="noreferrer">Source code ↗</a></div></div>
+        </article>
+      </div>
+    </section>
+    <section class="about-section" id="about"><div><p class="eyebrow">ABOUT THIS SPACE</p><h2>Built to be explored,<br><em>not just looked at.</em></h2></div><div class="about-copy"><p>I'm Bharath, a developer from Chennai interested in building useful products, clean interfaces, and reliable software. This lab is where projects become practical demos you can try yourself.</p><a class="text-link" href="https://github.com/Bharathpurvath" target="_blank" rel="noreferrer">More on GitHub ↗</a></div></section>
+  </main>
+  <footer><a class="brand footer-brand" href="#"><span class="brand-mark">B.</span><span>Bharath B <small>/ DEMO LAB</small></span></a><span>Made with curiosity · <span id="year"></span></span><a href="https://github.com/Bharathpurvath/bharath-portfolio" target="_blank" rel="noreferrer">Portfolio ↗</a></footer>
+
+  <dialog id="applyflow-dialog" class="demo-dialog">
+    <div class="dialog-head"><div><p class="eyebrow">LIVE BROWSER DEMO</p><h2>ApplyFlow <em>Job Tracker</em></h2></div><button class="icon-button" id="close-applyflow" aria-label="Close demo">✕</button></div>
+    <p class="dialog-description">Add sample jobs and manage their progress. Your changes are saved in this browser only.</p>
+    <div class="tracker-stats"><div><small>Total applications</small><strong id="stat-total">0</strong></div><div><small>Interviews</small><strong id="stat-interviews">0</strong></div><div><small>Offers</small><strong id="stat-offers">0</strong></div></div>
+    <form id="job-form" class="job-form">
+      <input type="hidden" id="job-id">
+      <label>Company<input id="company" name="company" placeholder="e.g. Acme Technologies" required maxlength="70"></label>
+      <label>Job title<input id="job-title" name="title" placeholder="e.g. Junior Developer" required maxlength="90"></label>
+      <label>Stage<select id="job-stage" name="stage"><option>Wishlist</option><option>Applied</option><option>Interview</option><option>Offer</option><option>Rejected</option></select></label>
+      <label>Date applied<input id="job-date" name="date" type="date" required></label>
+      <div class="form-actions"><button class="button button-dark" id="save-job" type="submit">Add application</button><button class="button button-light hidden" id="cancel-edit" type="button">Cancel edit</button></div>
+    </form>
+    <div class="tracker-controls"><input id="job-search" type="search" placeholder="Search company or role…" aria-label="Search applications"><select id="stage-filter" aria-label="Filter by stage"><option value="All">All stages</option><option>Wishlist</option><option>Applied</option><option>Interview</option><option>Offer</option><option>Rejected</option></select></div>
+    <div class="jobs-list" id="jobs-list" aria-live="polite"></div>
+    <div class="dialog-foot"><span>DEMO DATA ONLY · STORED LOCALLY</span><button id="reset-demo" class="text-button" type="button">Reset sample data</button></div>
+  </dialog>
+</body>
+</html>
